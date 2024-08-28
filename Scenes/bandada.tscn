@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://2d8hab108qbm"]
+
+[ext_resource type="PackedScene" uid="uid://gnt14y71xjmn" path="res://gaviota_1.tscn" id="1_1hfvf"]
+
+[node name="bandada" type="Node2D"]
+
+[node name="gaviota1" parent="." instance=ExtResource("1_1hfvf")]
+scale = Vector2(0.05, 0.05)
+animacionDiferente = true
+
+[node name="gaviota2" parent="." instance=ExtResource("1_1hfvf")]
+position = Vector2(15, 12)
+rotation = 0.0407538
+scale = Vector2(0.08, 0.08)
+
+[node name="gaviota3" parent="." instance=ExtResource("1_1hfvf")]
+position = Vector2(23, -13)
+rotation = -0.0579535
+scale = Vector2(0.04, 0.04)
+
+[node name="gaviota4" parent="." instance=ExtResource("1_1hfvf")]
+position = Vector2(41, 0)
+rotation = 0.0531838
+scale = Vector2(0.02, 0.02)
+collision_mask = 0
+animacionDiferente = true

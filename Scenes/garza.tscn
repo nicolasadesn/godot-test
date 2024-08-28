@@ -1,0 +1,303 @@
+[gd_scene load_steps=5 format=3 uid="uid://b285j78thl682"]
+
+[ext_resource type="Texture2D" uid="uid://cpbup5hu2p6b0" path="res://Assets/Images/garza.png" id="1_8kc8t"]
+
+[sub_resource type="Animation" id="Animation_fxuw7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Polygon2D/Skeleton2D/Cuerpo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(26, 60)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Polygon2D/Skeleton2D/Cuerpo:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.818685]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(25.3947, 2.26061)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.953576]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cola:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-13.3099, -3.98069)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cola:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-3.11311]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Patas:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-16.6074, 10.0595)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Patas:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [2.44185]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello/Cabeza:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(35.134, -7.1134)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello/Cabeza:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [2.11625]
+}
+
+[sub_resource type="Animation" id="Animation_wal1o"]
+resource_name = "idle"
+length = 5.0
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Polygon2D/Skeleton2D/Cuerpo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(26, 60)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Polygon2D/Skeleton2D/Cuerpo:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.818685]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(25.3947, 2.26061), Vector2(23.2981, 1.48329), Vector2(23.251, 2.89672), Vector2(22.4266, 6.40677), Vector2(23.9342, 3.62697)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.936517, 1, 2, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.953576, -0.911174, -0.9083, -0.832689, -0.836758, -0.955688]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cola:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-13.3099, -3.98069)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cola:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [-3.11311, -2.98264, -2.87286, -2.80765, -3.00576]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Patas:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-16.6074, 10.0595)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Patas:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [2.44185, 2.42169, 2.45727]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello/Cabeza:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(35.134, -7.1134), Vector2(33.5582, -5.18136), Vector2(33.7273, -7.17419)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Polygon2D/Skeleton2D/Cuerpo/Cuello/Cabeza:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [2.11625, 2.00317, 1.91477, 1.8427, 1.74898]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_p4t26"]
+_data = {
+"RESET": SubResource("Animation_fxuw7"),
+"idle": SubResource("Animation_wal1o")
+}
+
+[node name="Garza" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture = ExtResource("1_8kc8t")
+skeleton = NodePath("Skeleton2D")
+polygon = PackedVector2Array(77.7614, 32.2533, 47.57, 10.0147, 39.028, -1.62003, 24.1532, 1.47275, 20.1767, 8.83652, 23.4168, 15.1694, 29.0133, 18.8513, 31.8115, 24.8895, 34.3125, 29.9375, 38.1875, 35, 37.5, 38.6875, 34.75, 38.6875, 31.8125, 39.375, 18.9375, 42.625, 14.625, 44.8125, -0.9375, 78.25, -0.4375, 82.6875, -0.125, 86.25, 1.125, 87.375, 4.375, 86.1875, 8, 82.375, 15.875, 72.4375, 8.4375, 83.625, 8.3125, 87.6875, 19.5, 89.8125, 19.4375, 108.125, 24, 108.25, 24.5625, 98.9375, 28.5, 99.875, 31.8125, 97.8125, 30.5625, 87.6875, 24.4375, 85.75, 28.6875, 71.125, 38.4375, 66.3125, 42.9375, 63.6875, 45.125, 57.3125, 45.4375, 51.0625, 52.4375, 45.125, 51.6875, 33.5, 38.9375, 20.6875, 41.75, 20.1875, 71.8125, 34.3125)
+uv = PackedVector2Array(77.7614, 32.2533, 47.57, 10.0147, 39.028, -1.62003, 24.1532, 1.47275, 20.1767, 8.83652, 23.4168, 15.1694, 29.0133, 18.8513, 31.8115, 24.8895, 34.3125, 29.9375, 38.1875, 35, 37.5, 38.6875, 34.75, 38.6875, 31.8125, 39.375, 18.9375, 42.625, 14.625, 44.8125, -0.9375, 78.25, -0.4375, 82.6875, -0.125, 86.25, 1.125, 87.375, 4.375, 86.1875, 8, 82.375, 15.875, 72.4375, 8.4375, 83.625, 8.3125, 87.6875, 19.5, 89.8125, 19.4375, 108.125, 24, 108.25, 24.5625, 98.9375, 28.5, 99.875, 31.8125, 97.8125, 30.5625, 87.6875, 24.4375, 85.75, 28.6875, 71.125, 38.4375, 66.3125, 42.9375, 63.6875, 45.125, 57.3125, 45.4375, 51.0625, 52.4375, 45.125, 51.6875, 33.5, 38.9375, 20.6875, 41.75, 20.1875, 71.8125, 34.3125)
+bones = ["Cuerpo", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.82, 0.82, 0.82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.82, 0.82, 0.82, 0, 0, 0, 0, 0, 0), "Cuerpo/Cuello", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0.82, 0.82, 0.82, 0.41, 0.41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.41, 0.82, 0.82, 0, 0, 0), "Cuerpo/Cuello/Cabeza", PackedFloat32Array(0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.82, 0.82, 0.82), "Cuerpo/Cola", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.82, 0.82, 0.82, 0.82, 0.82, 0.82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), "Cuerpo/Patas", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.59, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.59, 0, 0, 0, 0, 0, 0, 0, 0, 0)]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="Polygon2D"]
+
+[node name="Cuerpo" type="Bone2D" parent="Polygon2D/Skeleton2D"]
+position = Vector2(26, 60)
+rotation = -0.818685
+rest = Transform2D(0.683182, -0.730248, 0.730248, 0.683182, 26, 60)
+
+[node name="Cuello" type="Bone2D" parent="Polygon2D/Skeleton2D/Cuerpo"]
+position = Vector2(25.3947, 2.26061)
+rotation = -0.953576
+scale = Vector2(1, 1)
+rest = Transform2D(0.57877, -0.815491, 0.815491, 0.57877, 25.3947, 2.26061)
+
+[node name="Cabeza" type="Bone2D" parent="Polygon2D/Skeleton2D/Cuerpo/Cuello"]
+position = Vector2(35.134, -7.1134)
+rotation = 2.11625
+scale = Vector2(1, 1)
+rest = Transform2D(-0.518808, 0.854891, -0.854891, -0.518808, 35.134, -7.1134)
+
+[node name="Cola" type="Bone2D" parent="Polygon2D/Skeleton2D/Cuerpo"]
+position = Vector2(-13.3099, -3.98069)
+rotation = -3.11311
+scale = Vector2(1, 1)
+rest = Transform2D(-0.999594, -0.0284785, 0.0284785, -0.999594, -13.3099, -3.98069)
+
+[node name="Patas" type="Bone2D" parent="Polygon2D/Skeleton2D/Cuerpo"]
+position = Vector2(-16.6074, 10.0595)
+rotation = 2.44185
+rest = Transform2D(-0.765005, 0.644025, -0.644025, -0.765005, -16.6074, 10.0595)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_p4t26")
+}
+autoplay = "idle"

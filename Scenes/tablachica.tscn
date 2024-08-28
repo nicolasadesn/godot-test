@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://53spc2ujnh8r"]
+
+[ext_resource type="Texture2D" uid="uid://diuich4p5fmkr" path="res://Assets/Images/tablachica.png" id="1_34vq5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_16tgw"]
+size = Vector2(630, 25)
+
+[node name="Tablachica" type="AnimatableBody2D"]
+scale = Vector2(0.1, 0.1)
+
+[node name="StaticBody2D" type="Sprite2D" parent="."]
+scale = Vector2(1, 1)
+texture = ExtResource("1_34vq5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(30, -40)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_16tgw")
+one_way_collision = true
